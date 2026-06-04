@@ -1,0 +1,28 @@
+{
+  "name": "fishing-poker-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node --import tsx server.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --import tsx server.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  }
+}
